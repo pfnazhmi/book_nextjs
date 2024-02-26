@@ -17,7 +17,6 @@ export default function Home() {
       <main className="bg-white">
         <div className="px-10">
           <Navbar/>
-          <Hero/>
           <Popular/>
           <Latest/>
           <Subscribe/>

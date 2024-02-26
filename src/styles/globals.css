@@ -10,7 +10,31 @@
   --black-color: #1a1a1a;
   
 }
-
+html,
 body{
   font-family: "Poppins", sans-serif;
+}
+
+a{
+  color: inherit;
+  text-decoration: none;
+}
+
+*{
+  box-sizing: border-box;
+}
+
+.button-bg-secondary{
+  background-color: var(--green-color);
+}
+
+.search-area{
+  background: #FAFAFA;
+  width: 500px;
+  padding: 5px 120px 5px 16px;
+  border-radius: 16px;
+}
+
+.search-button{
+  margin-left: -35px;
 }
